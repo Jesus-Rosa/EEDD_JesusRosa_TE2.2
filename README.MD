@@ -1,6 +1,6 @@
 ## TAREA EVALUABLE 2.2. TRABAJO CON GIT (Comandos)
 
-### Objetivos
+### Objetivos 
 
 - Conocer los comandos de git más importantes para trabajar con repositorios locales y remotos.
 - Conocer el entorno de VS Code para trabajar con git.
