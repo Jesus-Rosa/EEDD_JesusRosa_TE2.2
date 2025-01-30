@@ -163,7 +163,8 @@
     
     ``` 
 17. Muestra el estado del repositorio, el log, y los ficheros que hay en el directorio. (Imagen/gif visualizando los comandos) `adjunta la imagen`<br>
-   ![1](img/00.01.png)
+   ![1](img2/00.01.png)<br>
+   ![1](img2/00.02.png)
 18. Elimina la rama `fea/wac01` sin posibilidad de recuperación. ¿Qué comando/s utilizas?
     ```text
     git branch -D fea/wac01
@@ -177,7 +178,9 @@
     
     
     ``` 
-20. Muestra el estado del repositorio, el log, y los ficheros que hay en el directorio. (Imagen) `adjunta la imagen`
+20. Muestra el estado del repositorio, el log, y los ficheros que hay en el directorio. (Imagen) `adjunta la imagen`<br>
+   ![1](img2/00.03.png)<br>
+   ![1](img2/00.04.png)
 21. Vuelve a la rama `fea/wac02` y modifica el fichero `03.xml` añadiendo un nuevo libro.
 
     ```xml
@@ -204,7 +207,8 @@
 
     Agrega al área de stage y realiza commit "Update 03 file. Add book El Silmarillion".
 
-22. Posicionate en la rama `main`, muestra el estado y muestra el contenido del fichero `cat 03.xml`. (Imagen visualizando comandos) `adjunta la imagen`
+22. Posicionate en la rama `main`, muestra el estado y muestra el contenido del fichero `cat 03.xml`. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.05.png)
 
 23. Realiza un merge de la rama `fea/wac02` en la rama `main`. ¿Qué comando/s utilizas?
     ```text
@@ -212,7 +216,8 @@
     git merge fea/wac02 
     
     ``` 
-24. Muestra el estado del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta la imagen`
+24. Muestra el estado del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.06.png)
 25. Ahora, en la rama `main` modifica el fichero `03.xml` incluyendo un nuevo libro.
 
     ```xml
@@ -277,13 +282,17 @@
     
     ``` 
 
-27. Muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+27. Muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.07.png)
     
-28. Vuelve un commit atrás, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+28. Vuelve un commit atrás, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.08.png)
     
-29. Vuelve al commit anterior, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+29. Vuelve al commit anterior, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.09.png)
     
-30. Posicionate de nuevo en el último commit, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`
+30. Posicionate de nuevo en el último commit, y muestra el estado, log una línea y los ficheros que hay en el directorio. (Imagen visualizando comandos) `adjunta la imagen`<br>
+   ![1](img2/00.10.png)
 
 ### 2. Crear repositorio remoto y subir a GITHUB
 
@@ -362,16 +371,19 @@
    ```
 
    Realiza un commit con el mensaje "Update 03 file. Add book El hombre bicentenario".
-   (Muestra pantallazo de GITHUB con el commit realizado) `adjunta la imagen`
+   (Muestra pantallazo de GITHUB con el commit realizado) `adjunta la imagen`<br>
+   ![1](img2/00.11.png)
 
 8. Ahora obten los cambios sin acualizar el repositorio local (`git fetch origin`).
-9.  Muestra un log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
+9.  Muestra un log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`<br>
+   ![1](img2/00.12.png)
     
 10. Ahora actualiza el repositorio local con los cambios del repositorio remoto (`git pull origin fea/wac02`).
     
 11. Muestra un log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
 
-12. Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml` (Incluye imagen) `adjunta la imagen`
+12. Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml` (Incluye imagen) `adjunta la imagen`<br>
+   ![1](img2/00.13.png)
 13. Sube la rama `main` al repositorio remoto. ¿Qué comando/s utilizas?
     ```text
     git push origin main
@@ -389,8 +401,11 @@
     git push origin --delete fea/wac02
     
     ```
-16. Muestra desde GITHUB (navegador web) las ramas que tienes el en repositorio remoto. (Incluye imagen) `adjunta la imagen`
-17. Para finalizar, muestra el log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`
+16. Muestra desde GITHUB (navegador web) las ramas que tienes el en repositorio remoto. (Incluye imagen) `adjunta la imagen`<br>
+   ![1](img2/00.14.png)
+
+17. Para finalizar, muestra el log del repositorio local con opciones gráficas. (Incluye imagen) `adjunta la imagen`<br>
+   ![1](img2/00.15.png)
 
 ### 3. Enlace repositorio remoto
 
